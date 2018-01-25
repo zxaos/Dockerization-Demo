@@ -4,4 +4,5 @@ COPY requirements.txt example.txt /
 
 RUN pip install -r requirements.txt
 
-CMD ["dogesay", "test"]
+ENTRYPOINT ["/usr/local/bin/dogesay"]
+CMD ["-f", "example.txt"]
