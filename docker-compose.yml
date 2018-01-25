@@ -1,0 +1,12 @@
+---
+version: '3.3'
+services:
+  dogesay:
+    image: dogesay:dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  dogesay2:
+    image: dogesay:dev
+    command: ["doge", "say", "2"]
