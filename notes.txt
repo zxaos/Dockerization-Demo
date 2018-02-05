@@ -1,0 +1,21 @@
+1. Intro
+2. dogesay -f example.txt
+3. Why dockerize
+4. Dockerfile 1
+5. Docker build .
+6. Docker images
+7. Docker run id
+8. Oh, we need our actual packages
+9. Dockerfile 2
+10. Docker build .
+11. Docker run id 2
+12. Uh oh, 2 images?
+13. Docker build -t dogesay:dev .
+14. Docker image rm 
+15. Docker containers vs images
+16. Docker container ps -a -q
+17. Docker rm a basdfasdfasdff
+18. Docker image rm
+19. Dockerfile 3
+20. Debug - run and explore
+21. Dockerfile 4
